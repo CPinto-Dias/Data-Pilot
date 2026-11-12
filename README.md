@@ -90,7 +90,7 @@ Os comandos abaixo usam o PowerShell no Windows e devem ser executados a partir 
 
 ## Dados e pré-processamento
 
-O painel carrega `data_processed/sales_clean.csv`. Esse arquivo já está incluído no projeto. Se ele não existir, a aplicação tenta executar o pré-processamento, que abre uma janela para selecionar o CSV de origem. Selecione `data/sales.csv`.
+O painel carrega `data_processed/sales_clean.csv`. Esse arquivo já está incluído no projeto. Se ele não existir, a aplicação tenta executar o pré-processamento, que abre uma janela para selecionar o CSV de origem. Selecione `data/sales.csv`. A janela para escolher o arquivo CSV de origem é uma melhoria em relação ao que foi apresentado pelo Expert, onde um arquivo pré-definido no código era utilizado.
 
 O arquivo sales.csv também foi criado para a entrega do desafio da DIO, uma vez que aquele usado pelo Expert nas aulas não estava disponível. A estrutura dos dados é a mesma apresentada nos slides.
 
