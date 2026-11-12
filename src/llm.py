@@ -91,14 +91,15 @@ def run_agent(question: str, df: pd.DataFrame) -> str:
 
         {"role": "user", "content": question}
     ]
-        with OpenRouter(api_key=api_key) as client:
+        try:
+            with OpenRouter(api_key=api_key) as client:
 
-            for _ in range(MAX_TOOLS_ROUNDS):
-                response = client.chat.send(
-                model=os.getenv("OPENROUTER_MODEL", DEFAULT_MODEL),
-                messages=messages,
-                tools=TOOLS,
-                tool_choice="auto",
+                for _ in range(MAX_TOOLS_ROUNDS):
+                    response = client.chat.send(
+                    model=os.getenv("OPENROUTER_MODEL", DEFAULT_MODEL),
+                    messages=messages,
+                    tools=TOOLS,
+                    tool_choice="auto",
             )
             message = response.choices[0].message
             tool_calls = message.tool_calls or []
@@ -130,7 +131,9 @@ def run_agent(question: str, df: pd.DataFrame) -> str:
                         ),
                     }
                 )
-        return "Não foi possível concluir a análise no número permitido de consultas."
+        except Exception as exc:
+            print(f"Erro inesperado: {exc}")
+            return "Não foi possível concluir a análise no número permitido de consultas."
 
 # --------------------------------------------------------------
 # Trecho do programa onde o contexo e o prompt são construídos
