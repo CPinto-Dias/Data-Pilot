@@ -1,0 +1,241 @@
+pedido_id;data;produto;categoria;cliente_id;cidade;canal;quantidade;preco_unitario;status;mes;receita
+1001;2025-01-20;Suporte para Notebook;Acessorios;CLI-211;Salvador;aplicativo;7;85,0;cancelado;2025-01;595,0
+1002;2025-11-07;Garrafa Termica Inox;Utilidades;CLI-198;Teresina;marktplace;5;95,0;concluido;2025-11;475,0
+1003;2025-01-23;Cadeira Ergonomica;Moveis;CLI-233;Boa Vista;marktplace;6;1150,0;concluido;2025-01;6900,0
+1004;2025-08-09;Hub USB-C;Acessorios;CLI-335;Campo Grande;aplicativo;2;150,0;concluido;2025-08;300,0
+1005;2026-01-04;Smartwatch Esportivo;Eletronicos;CLI-179;Belem;loja fisica;6;890,0;concluido;2026-01;5340,0
+1006;2025-07-26;Smartwatch Esportivo;Eletronicos;CLI-132;Porto Alegre;loja fisica;7;890,0;concluido;2025-07;6230,0
+1007;2025-12-13;Fechadura Digital;Casa Inteligente;CLI-245;Cuiaba;loja fisica;1;780,0;concluido;2025-12;780,0
+1008;2025-06-05;Smartphone 5G 256GB;Eletronicos;CLI-210;Boa Vista;aplicativo;8;2900,0;concluido;2025-06;23200,0
+1009;2025-08-15;Suporte Monitor Madeira;Moveis;CLI-154;Maceio;loja fisica;3;140,0;concluido;2025-08;420,0
+1010;2025-12-04;Headset Gamer;Acessorios;CLI-231;Belem;aplicativo;2;280,0;concluido;2025-12;560,0
+1011;2026-02-24;Sensor de Presenca Smart;Casa Inteligente;CLI-179;Brasilia;marktplace;3;110,0;concluido;2026-02;330,0
+1012;2025-01-13;Teclado Mecanico;Acessorios;CLI-221;Sao Luis;site;8;340,0;cancelado;2025-01;2720,0
+1013;2025-08-01;Cafeteira Eletrica;Utilidades;CLI-283;Porto Velho;loja fisica;8;230,0;cancelado;2025-08;1840,0
+1014;2025-07-24;Assistente Virtual Echo;Casa Inteligente;CLI-267;Porto Velho;site;2;450,0;concluido;2025-07;900,0
+1015;2026-02-03;Mesa de Escritorio;Moveis;CLI-145;Boa Vista;loja fisica;1;850,0;concluido;2026-02;850,0
+1016;2025-10-13;Lampada Smart Wi-Fi;Casa Inteligente;CLI-216;Curitiba;loja fisica;6;65,0;concluido;2025-10;390,0
+1017;2026-05-02;Poltrona de Leitura;Moveis;CLI-308;Rio Branco;loja fisica;8;980,0;concluido;2026-05;7840,0
+1018;2026-04-05;Sensor de Presenca Smart;Casa Inteligente;CLI-320;Joao Pessoa;loja fisica;5;110,0;cancelado;2026-04;550,0
+1019;2026-01-20;Sensor de Presenca Smart;Casa Inteligente;CLI-170;Macapa;loja fisica;4;110,0;concluido;2026-01;440,0
+1020;2025-05-21;Cadeira Ergonomica;Moveis;CLI-282;Cuiaba;marktplace;5;1150,0;concluido;2025-05;5750,0
+1021;2025-06-21;Smartwatch Esportivo;Eletronicos;CLI-120;Curitiba;marktplace;4;890,0;concluido;2025-06;3560,0
+1022;2025-07-16;Sensor de Presenca Smart;Casa Inteligente;CLI-154;Belo Horizonte;loja fisica;7;110,0;cancelado;2025-07;770,0
+1023;2025-06-19;Luminaria de Mesa LED;Utilidades;CLI-206;Rio de Janeiro;marktplace;7;130,0;cancelado;2025-06;910,0
+1024;2025-07-19;Mochila Impermeavel;Utilidades;CLI-105;Macapa;loja fisica;8;190,0;concluido;2025-07;1520,0
+1025;2025-01-04;Monitor 27 4K;Eletronicos;CLI-292;Recife;loja fisica;4;1950,0;concluido;2025-01;7800,0
+1026;2025-09-07;Tomada Inteligente;Casa Inteligente;CLI-211;Joao Pessoa;site;7;90,0;cancelado;2025-09;630,0
+1027;2025-06-22;Suporte Monitor Madeira;Moveis;CLI-142;Palmas;loja fisica;3;140,0;concluido;2025-06;420,0
+1028;2025-11-15;Garrafa Termica Inox;Utilidades;CLI-332;Recife;site;2;95,0;cancelado;2025-11;190,0
+1029;2025-11-26;Mesa de Escritorio;Moveis;CLI-321;Natal;marktplace;1;850,0;concluido;2025-11;850,0
+1030;2025-05-14;Estante para Livros;Moveis;CLI-154;Natal;aplicativo;6;490,0;concluido;2025-05;2940,0
+1031;2026-01-25;Estante para Livros;Moveis;CLI-292;Palmas;loja fisica;5;490,0;concluido;2026-01;2450,0
+1032;2026-03-04;Webcam Full HD;Acessorios;CLI-104;Rio Branco;site;6;210,0;concluido;2026-03;1260,0
+1033;2025-04-25;Hub USB-C;Acessorios;CLI-110;Macapa;site;4;150,0;cancelado;2025-04;600,0
+1034;2025-04-13;Suporte para Notebook;Acessorios;CLI-139;Brasilia;marktplace;8;85,0;concluido;2025-04;680,0
+1035;2025-12-09;Suporte para Notebook;Acessorios;CLI-342;Porto Alegre;loja fisica;5;85,0;concluido;2025-12;425,0
+1036;2026-01-28;Smartphone 5G 256GB;Eletronicos;CLI-255;Sao Luis;site;3;2900,0;concluido;2026-01;8700,0
+1037;2026-05-09;Notebook Pro 15;Eletronicos;CLI-248;Sao Paulo;aplicativo;7;4500,0;cancelado;2026-05;31500,0
+1038;2025-07-23;Lampada Smart Wi-Fi;Casa Inteligente;CLI-251;Porto Velho;marktplace;2;65,0;concluido;2025-07;130,0
+1039;2025-12-23;Fone Bluetooth ANC;Eletronicos;CLI-253;Boa Vista;site;1;620,0;concluido;2025-12;620,0
+1040;2025-06-27;Luminaria de Mesa LED;Utilidades;CLI-269;Salvador;site;6;130,0;cancelado;2025-06;780,0
+1041;2025-01-07;Gaveteiro com Rodizios;Moveis;CLI-127;Fortaleza;aplicativo;8;320,0;concluido;2025-01;2560,0
+1042;2025-12-29;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-145;Rio Branco;aplicativo;8;260,0;concluido;2025-12;2080,0
+1043;2025-08-27;Suporte Monitor Madeira;Moveis;CLI-251;Goiania;aplicativo;4;140,0;concluido;2025-08;560,0
+1044;2026-03-02;Headset Gamer;Acessorios;CLI-325;Natal;marktplace;8;280,0;concluido;2026-03;2240,0
+1045;2025-10-19;Mochila Impermeavel;Utilidades;CLI-197;Campo Grande;site;8;190,0;concluido;2025-10;1520,0
+1046;2026-03-12;Smartphone 5G 256GB;Eletronicos;CLI-224;Porto Alegre;aplicativo;5;2900,0;concluido;2026-03;14500,0
+1047;2025-06-24;Smartwatch Esportivo;Eletronicos;CLI-279;Goiania;site;4;890,0;concluido;2025-06;3560,0
+1048;2025-02-13;Sensor de Presenca Smart;Casa Inteligente;CLI-204;Joao Pessoa;marktplace;8;110,0;cancelado;2025-02;880,0
+1049;2025-11-27;Gaveteiro com Rodizios;Moveis;CLI-302;Sao Paulo;site;5;320,0;concluido;2025-11;1600,0
+1050;2025-04-24;Suporte Monitor Madeira;Moveis;CLI-162;Cuiaba;aplicativo;8;140,0;concluido;2025-04;1120,0
+1051;2025-10-11;Aspirador Portatil;Utilidades;CLI-208;Rio Branco;aplicativo;6;310,0;concluido;2025-10;1860,0
+1052;2025-12-26;Estante para Livros;Moveis;CLI-178;Goiania;marktplace;2;490,0;concluido;2025-12;980,0
+1053;2026-01-05;Tomada Inteligente;Casa Inteligente;CLI-130;Rio Branco;marktplace;4;90,0;concluido;2026-01;360,0
+1054;2025-04-21;Estante para Livros;Moveis;CLI-285;Teresina;aplicativo;2;490,0;cancelado;2025-04;980,0
+1055;2026-03-03;Tomada Inteligente;Casa Inteligente;CLI-158;Salvador;marktplace;5;90,0;concluido;2026-03;450,0
+1056;2025-01-08;Cafeteira Eletrica;Utilidades;CLI-170;Rio de Janeiro;site;5;230,0;concluido;2025-01;1150,0
+1057;2025-12-24;Sensor de Presenca Smart;Casa Inteligente;CLI-322;Macapa;loja fisica;2;110,0;cancelado;2025-12;220,0
+1058;2026-03-23;Suporte para Notebook;Acessorios;CLI-172;Joao Pessoa;loja fisica;8;85,0;cancelado;2026-03;680,0
+1059;2025-06-24;Lampada Smart Wi-Fi;Casa Inteligente;CLI-164;Joao Pessoa;site;2;65,0;concluido;2025-06;130,0
+1060;2025-07-25;Cadeira Ergonomica;Moveis;CLI-247;Manaus;site;3;1150,0;concluido;2025-07;3450,0
+1061;2025-03-18;Aspirador Portatil;Utilidades;CLI-121;Brasilia;site;7;310,0;concluido;2025-03;2170,0
+1062;2025-11-07;Organizador de Cabos;Utilidades;CLI-157;Macapa;loja fisica;8;45,0;concluido;2025-11;360,0
+1063;2026-04-11;Estante para Livros;Moveis;CLI-320;Teresina;loja fisica;5;490,0;concluido;2026-04;2450,0
+1064;2025-10-19;Garrafa Termica Inox;Utilidades;CLI-256;Rio Branco;site;4;95,0;concluido;2025-10;380,0
+1065;2025-11-17;Tomada Inteligente;Casa Inteligente;CLI-269;Belo Horizonte;marktplace;4;90,0;concluido;2025-11;360,0
+1066;2025-03-30;Garrafa Termica Inox;Utilidades;CLI-140;Sao Paulo;loja fisica;8;95,0;cancelado;2025-03;760,0
+1067;2025-12-19;Luminaria de Mesa LED;Utilidades;CLI-174;Rio de Janeiro;marktplace;5;130,0;concluido;2025-12;650,0
+1068;2025-12-28;Fone Bluetooth ANC;Eletronicos;CLI-320;Natal;site;4;620,0;cancelado;2025-12;2480,0
+1069;2026-04-19;Fone Bluetooth ANC;Eletronicos;CLI-250;Belem;marktplace;7;620,0;concluido;2026-04;4340,0
+1070;2025-02-28;Cafeteira Eletrica;Utilidades;CLI-265;Curitiba;aplicativo;3;230,0;concluido;2025-02;690,0
+1071;2025-02-06;Teclado Mecanico;Acessorios;CLI-302;Cuiaba;aplicativo;8;340,0;concluido;2025-02;2720,0
+1072;2025-03-05;Suporte Monitor Madeira;Moveis;CLI-177;Porto Velho;loja fisica;5;140,0;concluido;2025-03;700,0
+1073;2025-09-14;Luminaria de Mesa LED;Utilidades;CLI-212;Belo Horizonte;site;7;130,0;concluido;2025-09;910,0
+1074;2026-01-12;Smartwatch Esportivo;Eletronicos;CLI-164;Sao Paulo;site;4;890,0;concluido;2026-01;3560,0
+1075;2026-05-08;Organizador de Cabos;Utilidades;CLI-343;Sao Paulo;aplicativo;1;45,0;concluido;2026-05;45,0
+1076;2026-01-26;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-232;Manaus;loja fisica;5;260,0;cancelado;2026-01;1300,0
+1077;2025-04-03;Luminaria de Mesa LED;Utilidades;CLI-262;Palmas;loja fisica;2;130,0;concluido;2025-04;260,0
+1078;2025-08-29;Tablet 11 Polegadas;Eletronicos;CLI-185;Campo Grande;site;3;2200,0;concluido;2025-08;6600,0
+1079;2025-06-18;Suporte Monitor Madeira;Moveis;CLI-226;Cuiaba;loja fisica;1;140,0;cancelado;2025-06;140,0
+1080;2025-08-21;Headset Gamer;Acessorios;CLI-164;Campo Grande;site;7;280,0;concluido;2025-08;1960,0
+1081;2026-03-19;Garrafa Termica Inox;Utilidades;CLI-268;Aracaju;loja fisica;7;95,0;concluido;2026-03;665,0
+1082;2025-01-28;Fechadura Digital;Casa Inteligente;CLI-192;Sao Luis;loja fisica;8;780,0;cancelado;2025-01;6240,0
+1083;2026-01-25;Teclado Mecanico;Acessorios;CLI-168;Aracaju;marktplace;5;340,0;cancelado;2026-01;1700,0
+1084;2025-08-13;Cadeira Ergonomica;Moveis;CLI-107;Manaus;marktplace;3;1150,0;cancelado;2025-08;3450,0
+1085;2025-06-09;Garrafa Termica Inox;Utilidades;CLI-241;Fortaleza;site;4;95,0;cancelado;2025-06;380,0
+1086;2026-03-07;Webcam Full HD;Acessorios;CLI-342;Vitoria;marktplace;8;210,0;cancelado;2026-03;1680,0
+1087;2026-04-23;Smartwatch Esportivo;Eletronicos;CLI-280;Goiania;loja fisica;8;890,0;concluido;2026-04;7120,0
+1088;2025-08-30;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-241;Curitiba;loja fisica;4;260,0;concluido;2025-08;1040,0
+1089;2026-04-17;Organizador de Cabos;Utilidades;CLI-291;Curitiba;site;5;45,0;concluido;2026-04;225,0
+1090;2026-01-31;Estante para Livros;Moveis;CLI-339;Boa Vista;aplicativo;1;490,0;concluido;2026-01;490,0
+1091;2025-05-25;Smartwatch Esportivo;Eletronicos;CLI-248;Belem;loja fisica;3;890,0;cancelado;2025-05;2670,0
+1092;2025-08-17;Luminaria de Mesa LED;Utilidades;CLI-188;Campo Grande;loja fisica;8;130,0;cancelado;2025-08;1040,0
+1093;2026-04-23;Smartphone 5G 256GB;Eletronicos;CLI-278;Brasilia;loja fisica;4;2900,0;concluido;2026-04;11600,0
+1094;2026-03-15;Cadeira Ergonomica;Moveis;CLI-181;Rio Branco;loja fisica;7;1150,0;concluido;2026-03;8050,0
+1095;2025-07-17;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-346;Rio de Janeiro;marktplace;6;260,0;cancelado;2025-07;1560,0
+1096;2026-03-22;Webcam Full HD;Acessorios;CLI-125;Maceio;loja fisica;1;210,0;concluido;2026-03;210,0
+1097;2026-01-05;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-322;Manaus;marktplace;2;260,0;concluido;2026-01;520,0
+1098;2025-08-29;Monitor 27 4K;Eletronicos;CLI-259;Porto Velho;loja fisica;2;1950,0;concluido;2025-08;3900,0
+1099;2026-03-13;Fone Bluetooth ANC;Eletronicos;CLI-319;Aracaju;loja fisica;6;620,0;concluido;2026-03;3720,0
+1100;2025-11-17;Poltrona de Leitura;Moveis;CLI-109;Sao Luis;site;4;980,0;concluido;2025-11;3920,0
+1101;2025-11-20;Smartphone 5G 256GB;Eletronicos;CLI-291;Belo Horizonte;loja fisica;2;2900,0;concluido;2025-11;5800,0
+1102;2026-01-25;Webcam Full HD;Acessorios;CLI-142;Porto Velho;aplicativo;1;210,0;concluido;2026-01;210,0
+1103;2025-01-24;Notebook Pro 15;Eletronicos;CLI-175;Salvador;aplicativo;7;4500,0;concluido;2025-01;31500,0
+1104;2025-03-16;Fechadura Digital;Casa Inteligente;CLI-205;Teresina;marktplace;3;780,0;concluido;2025-03;2340,0
+1105;2025-03-31;Suporte para Notebook;Acessorios;CLI-322;Recife;marktplace;8;85,0;concluido;2025-03;680,0
+1106;2026-04-13;Cafeteira Eletrica;Utilidades;CLI-159;Natal;aplicativo;8;230,0;concluido;2026-04;1840,0
+1107;2025-05-11;Webcam Full HD;Acessorios;CLI-330;Cuiaba;marktplace;2;210,0;concluido;2025-05;420,0
+1108;2025-08-15;Smartwatch Esportivo;Eletronicos;CLI-176;Manaus;loja fisica;5;890,0;concluido;2025-08;4450,0
+1109;2025-08-22;Smartphone 5G 256GB;Eletronicos;CLI-198;Joao Pessoa;site;4;2900,0;cancelado;2025-08;11600,0
+1110;2025-07-15;Aspirador Portatil;Utilidades;CLI-247;Cuiaba;aplicativo;1;310,0;concluido;2025-07;310,0
+1111;2026-05-16;Estante para Livros;Moveis;CLI-102;Teresina;site;8;490,0;concluido;2026-05;3920,0
+1112;2026-03-03;Smartphone 5G 256GB;Eletronicos;CLI-255;Boa Vista;aplicativo;4;2900,0;concluido;2026-03;11600,0
+1113;2025-11-22;Fechadura Digital;Casa Inteligente;CLI-164;Belem;marktplace;2;780,0;concluido;2025-11;1560,0
+1114;2026-04-08;Headset Gamer;Acessorios;CLI-301;Natal;site;6;280,0;cancelado;2026-04;1680,0
+1115;2026-01-10;Lampada Smart Wi-Fi;Casa Inteligente;CLI-332;Cuiaba;aplicativo;7;65,0;concluido;2026-01;455,0
+1116;2025-03-31;Assistente Virtual Echo;Casa Inteligente;CLI-301;Aracaju;aplicativo;5;450,0;concluido;2025-03;2250,0
+1117;2026-03-02;Tomada Inteligente;Casa Inteligente;CLI-333;Palmas;loja fisica;5;90,0;concluido;2026-03;450,0
+1118;2026-01-18;Notebook Pro 15;Eletronicos;CLI-219;Belo Horizonte;marktplace;4;4500,0;cancelado;2026-01;18000,0
+1119;2026-03-17;Poltrona de Leitura;Moveis;CLI-193;Belo Horizonte;loja fisica;1;980,0;concluido;2026-03;980,0
+1120;2025-05-16;Garrafa Termica Inox;Utilidades;CLI-216;Salvador;aplicativo;7;95,0;cancelado;2025-05;665,0
+1121;2026-02-26;Notebook Pro 15;Eletronicos;CLI-272;Brasilia;loja fisica;1;4500,0;concluido;2026-02;4500,0
+1122;2025-11-14;Aspirador Portatil;Utilidades;CLI-334;Sao Luis;marktplace;2;310,0;cancelado;2025-11;620,0
+1123;2025-11-22;Suporte Monitor Madeira;Moveis;CLI-177;Manaus;loja fisica;2;140,0;concluido;2025-11;280,0
+1124;2025-03-13;Mouse Sem Fio;Acessorios;CLI-177;Joao Pessoa;site;2;120,0;cancelado;2025-03;240,0
+1125;2025-05-01;Cafeteira Eletrica;Utilidades;CLI-199;Natal;aplicativo;7;230,0;concluido;2025-05;1610,0
+1126;2025-10-28;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-267;Vitoria;loja fisica;7;260,0;cancelado;2025-10;1820,0
+1127;2026-04-26;Notebook Pro 15;Eletronicos;CLI-276;Salvador;marktplace;8;4500,0;concluido;2026-04;36000,0
+1128;2025-08-16;Tomada Inteligente;Casa Inteligente;CLI-125;Belem;aplicativo;6;90,0;concluido;2025-08;540,0
+1129;2025-02-01;Estante para Livros;Moveis;CLI-148;Vitoria;loja fisica;2;490,0;concluido;2025-02;980,0
+1130;2025-12-06;Sensor de Presenca Smart;Casa Inteligente;CLI-263;Sao Luis;site;1;110,0;concluido;2025-12;110,0
+1131;2026-02-07;Smartphone 5G 256GB;Eletronicos;CLI-132;Boa Vista;marktplace;2;2900,0;concluido;2026-02;5800,0
+1132;2026-03-01;Cafeteira Eletrica;Utilidades;CLI-250;Porto Alegre;marktplace;6;230,0;concluido;2026-03;1380,0
+1133;2026-02-01;Fechadura Digital;Casa Inteligente;CLI-100;Goiania;marktplace;3;780,0;concluido;2026-02;2340,0
+1134;2025-10-04;Smartphone 5G 256GB;Eletronicos;CLI-128;Belem;site;3;2900,0;cancelado;2025-10;8700,0
+1135;2025-01-08;Smartphone 5G 256GB;Eletronicos;CLI-250;Campo Grande;site;3;2900,0;cancelado;2025-01;8700,0
+1136;2025-05-16;Teclado Mecanico;Acessorios;CLI-289;Fortaleza;site;2;340,0;concluido;2025-05;680,0
+1137;2025-09-01;Estante para Livros;Moveis;CLI-231;Teresina;site;8;490,0;concluido;2025-09;3920,0
+1138;2025-09-15;Fechadura Digital;Casa Inteligente;CLI-111;Rio Branco;aplicativo;8;780,0;concluido;2025-09;6240,0
+1139;2025-11-26;Mouse Sem Fio;Acessorios;CLI-222;Recife;loja fisica;2;120,0;cancelado;2025-11;240,0
+1140;2025-09-09;Cadeira Ergonomica;Moveis;CLI-330;Belo Horizonte;aplicativo;3;1150,0;concluido;2025-09;3450,0
+1141;2025-02-03;Tomada Inteligente;Casa Inteligente;CLI-259;Manaus;aplicativo;7;90,0;concluido;2025-02;630,0
+1142;2025-11-02;Aspirador Portatil;Utilidades;CLI-216;Maceio;loja fisica;2;310,0;cancelado;2025-11;620,0
+1143;2026-02-11;Hub USB-C;Acessorios;CLI-266;Macapa;marktplace;7;150,0;concluido;2026-02;1050,0
+1144;2025-08-20;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-186;Palmas;loja fisica;7;260,0;cancelado;2025-08;1820,0
+1145;2025-08-01;Headset Gamer;Acessorios;CLI-209;Campo Grande;aplicativo;6;280,0;concluido;2025-08;1680,0
+1146;2026-05-04;Sensor de Presenca Smart;Casa Inteligente;CLI-336;Joao Pessoa;site;2;110,0;concluido;2026-05;220,0
+1147;2026-03-02;Mouse Sem Fio;Acessorios;CLI-210;Vitoria;aplicativo;3;120,0;concluido;2026-03;360,0
+1148;2025-10-12;Suporte para Notebook;Acessorios;CLI-344;Aracaju;aplicativo;2;85,0;concluido;2025-10;170,0
+1149;2025-07-30;Fone Bluetooth ANC;Eletronicos;CLI-340;Macapa;loja fisica;1;620,0;concluido;2025-07;620,0
+1150;2026-05-11;Smartwatch Esportivo;Eletronicos;CLI-179;Salvador;site;4;890,0;concluido;2026-05;3560,0
+1151;2025-03-21;Mesa de Escritorio;Moveis;CLI-316;Vitoria;aplicativo;6;850,0;cancelado;2025-03;5100,0
+1152;2025-02-28;Smartwatch Esportivo;Eletronicos;CLI-157;Boa Vista;loja fisica;1;890,0;concluido;2025-02;890,0
+1153;2025-11-08;Notebook Pro 15;Eletronicos;CLI-146;Goiania;aplicativo;6;4500,0;concluido;2025-11;27000,0
+1154;2025-06-29;Teclado Mecanico;Acessorios;CLI-322;Curitiba;loja fisica;2;340,0;concluido;2025-06;680,0
+1155;2025-03-14;Mouse Sem Fio;Acessorios;CLI-291;Maceio;marktplace;7;120,0;cancelado;2025-03;840,0
+1156;2025-08-03;Estante para Livros;Moveis;CLI-140;Salvador;aplicativo;6;490,0;concluido;2025-08;2940,0
+1157;2026-02-02;Organizador de Cabos;Utilidades;CLI-121;Rio de Janeiro;marktplace;3;45,0;concluido;2026-02;135,0
+1158;2026-01-22;Garrafa Termica Inox;Utilidades;CLI-272;Belo Horizonte;aplicativo;8;95,0;concluido;2026-01;760,0
+1159;2025-12-05;Gaveteiro com Rodizios;Moveis;CLI-255;Natal;loja fisica;5;320,0;concluido;2025-12;1600,0
+1160;2025-04-21;Garrafa Termica Inox;Utilidades;CLI-188;Fortaleza;site;5;95,0;cancelado;2025-04;475,0
+1161;2025-12-14;Luminaria de Mesa LED;Utilidades;CLI-234;Belem;aplicativo;1;130,0;cancelado;2025-12;130,0
+1162;2025-04-23;Poltrona de Leitura;Moveis;CLI-114;Sao Paulo;marktplace;5;980,0;cancelado;2025-04;4900,0
+1163;2026-04-30;Assistente Virtual Echo;Casa Inteligente;CLI-295;Goiania;aplicativo;6;450,0;concluido;2026-04;2700,0
+1164;2025-03-03;Webcam Full HD;Acessorios;CLI-291;Fortaleza;marktplace;3;210,0;concluido;2025-03;630,0
+1165;2025-07-14;Mochila Impermeavel;Utilidades;CLI-158;Maceio;aplicativo;2;190,0;cancelado;2025-07;380,0
+1166;2025-07-23;Webcam Full HD;Acessorios;CLI-104;Natal;site;6;210,0;concluido;2025-07;1260,0
+1167;2025-10-22;Poltrona de Leitura;Moveis;CLI-203;Porto Velho;loja fisica;5;980,0;concluido;2025-10;4900,0
+1168;2025-02-28;Cadeira Ergonomica;Moveis;CLI-347;Campo Grande;marktplace;8;1150,0;concluido;2025-02;9200,0
+1169;2026-03-02;Notebook Pro 15;Eletronicos;CLI-211;Vitoria;marktplace;7;4500,0;concluido;2026-03;31500,0
+1170;2025-10-29;Poltrona de Leitura;Moveis;CLI-120;Recife;aplicativo;6;980,0;concluido;2025-10;5880,0
+1171;2025-04-24;Smartphone 5G 256GB;Eletronicos;CLI-119;Maceio;site;4;2900,0;concluido;2025-04;11600,0
+1172;2026-04-09;Monitor 27 4K;Eletronicos;CLI-286;Palmas;marktplace;4;1950,0;concluido;2026-04;7800,0
+1173;2025-02-22;Tomada Inteligente;Casa Inteligente;CLI-150;Florianopolis;marktplace;2;90,0;concluido;2025-02;180,0
+1174;2025-04-01;Gaveteiro com Rodizios;Moveis;CLI-293;Teresina;loja fisica;6;320,0;concluido;2025-04;1920,0
+1175;2026-03-19;Smartphone 5G 256GB;Eletronicos;CLI-212;Belo Horizonte;loja fisica;8;2900,0;concluido;2026-03;23200,0
+1176;2025-11-20;Monitor 27 4K;Eletronicos;CLI-251;Rio de Janeiro;aplicativo;2;1950,0;cancelado;2025-11;3900,0
+1177;2025-06-08;Gaveteiro com Rodizios;Moveis;CLI-109;Rio de Janeiro;aplicativo;5;320,0;cancelado;2025-06;1600,0
+1178;2025-02-09;Suporte para Notebook;Acessorios;CLI-252;Maceio;loja fisica;8;85,0;concluido;2025-02;680,0
+1179;2025-10-25;Mochila Impermeavel;Utilidades;CLI-329;Rio de Janeiro;loja fisica;4;190,0;concluido;2025-10;760,0
+1180;2025-06-14;Luminaria de Mesa LED;Utilidades;CLI-228;Curitiba;site;8;130,0;cancelado;2025-06;1040,0
+1181;2025-02-22;Fone Bluetooth ANC;Eletronicos;CLI-121;Maceio;marktplace;1;620,0;concluido;2025-02;620,0
+1182;2025-05-07;Gaveteiro com Rodizios;Moveis;CLI-234;Maceio;marktplace;6;320,0;concluido;2025-05;1920,0
+1183;2025-07-10;Tablet 11 Polegadas;Eletronicos;CLI-204;Macapa;aplicativo;1;2200,0;concluido;2025-07;2200,0
+1184;2026-02-09;Notebook Pro 15;Eletronicos;CLI-184;Vitoria;loja fisica;5;4500,0;concluido;2026-02;22500,0
+1185;2025-05-10;Cafeteira Eletrica;Utilidades;CLI-185;Belo Horizonte;marktplace;6;230,0;concluido;2025-05;1380,0
+1186;2025-06-08;Mesa de Escritorio;Moveis;CLI-252;Porto Velho;site;5;850,0;concluido;2025-06;4250,0
+1187;2025-10-14;Suporte Monitor Madeira;Moveis;CLI-302;Campo Grande;marktplace;2;140,0;concluido;2025-10;280,0
+1188;2025-11-27;Poltrona de Leitura;Moveis;CLI-192;Sao Paulo;aplicativo;5;980,0;concluido;2025-11;4900,0
+1189;2025-04-03;Tomada Inteligente;Casa Inteligente;CLI-342;Macapa;loja fisica;4;90,0;concluido;2025-04;360,0
+1190;2025-04-26;Assistente Virtual Echo;Casa Inteligente;CLI-119;Cuiaba;site;1;450,0;cancelado;2025-04;450,0
+1191;2025-12-05;Smartwatch Esportivo;Eletronicos;CLI-133;Sao Luis;loja fisica;3;890,0;concluido;2025-12;2670,0
+1192;2025-03-25;Sensor de Presenca Smart;Casa Inteligente;CLI-297;Sao Luis;marktplace;8;110,0;concluido;2025-03;880,0
+1193;2025-01-23;Estante para Livros;Moveis;CLI-273;Rio Branco;marktplace;8;490,0;concluido;2025-01;3920,0
+1194;2025-11-09;Fone Bluetooth ANC;Eletronicos;CLI-300;Natal;marktplace;4;620,0;concluido;2025-11;2480,0
+1195;2025-06-08;Mesa de Escritorio;Moveis;CLI-194;Belem;loja fisica;8;850,0;cancelado;2025-06;6800,0
+1196;2026-01-29;Tablet 11 Polegadas;Eletronicos;CLI-228;Maceio;loja fisica;3;2200,0;concluido;2026-01;6600,0
+1197;2026-02-23;Fechadura Digital;Casa Inteligente;CLI-135;Goiania;site;8;780,0;concluido;2026-02;6240,0
+1198;2026-03-24;Smartwatch Esportivo;Eletronicos;CLI-339;Vitoria;site;5;890,0;concluido;2026-03;4450,0
+1199;2025-02-12;Tomada Inteligente;Casa Inteligente;CLI-215;Maceio;marktplace;7;90,0;cancelado;2025-02;630,0
+1200;2025-02-16;Camera de Seguranca Wi-Fi;Casa Inteligente;CLI-326;Salvador;site;7;260,0;cancelado;2025-02;1820,0
+1201;2025-01-28;Poltrona de Leitura;Moveis;CLI-195;Brasilia;loja fisica;2;980,0;concluido;2025-01;1960,0
+1202;2025-07-11;Lampada Smart Wi-Fi;Casa Inteligente;CLI-181;Vitoria;aplicativo;3;65,0;cancelado;2025-07;195,0
+1203;2025-03-12;Headset Gamer;Acessorios;CLI-334;Palmas;loja fisica;3;280,0;cancelado;2025-03;840,0
+1204;2026-01-24;Gaveteiro com Rodizios;Moveis;CLI-257;Sao Paulo;site;1;320,0;concluido;2026-01;320,0
+1205;2025-05-12;Assistente Virtual Echo;Casa Inteligente;CLI-240;Rio Branco;loja fisica;2;450,0;concluido;2025-05;900,0
+1206;2026-02-02;Smartphone 5G 256GB;Eletronicos;CLI-177;Vitoria;site;4;2900,0;cancelado;2026-02;11600,0
+1207;2025-08-03;Luminaria de Mesa LED;Utilidades;CLI-116;Vitoria;loja fisica;1;130,0;concluido;2025-08;130,0
+1208;2025-11-20;Organizador de Cabos;Utilidades;CLI-161;Porto Velho;marktplace;5;45,0;concluido;2025-11;225,0
+1209;2025-08-08;Suporte para Notebook;Acessorios;CLI-190;Brasilia;loja fisica;3;85,0;concluido;2025-08;255,0
+1210;2025-12-07;Suporte para Notebook;Acessorios;CLI-349;Salvador;site;1;85,0;concluido;2025-12;85,0
+1211;2025-07-19;Cadeira Ergonomica;Moveis;CLI-262;Recife;aplicativo;5;1150,0;cancelado;2025-07;5750,0
+1212;2026-01-18;Headset Gamer;Acessorios;CLI-301;Belo Horizonte;aplicativo;4;280,0;concluido;2026-01;1120,0
+1213;2026-01-11;Suporte para Notebook;Acessorios;CLI-288;Macapa;aplicativo;3;85,0;concluido;2026-01;255,0
+1214;2025-01-23;Smartwatch Esportivo;Eletronicos;CLI-186;Palmas;marktplace;8;890,0;concluido;2025-01;7120,0
+1215;2025-12-23;Suporte Monitor Madeira;Moveis;CLI-146;Boa Vista;marktplace;2;140,0;cancelado;2025-12;280,0
+1216;2026-01-02;Cadeira Ergonomica;Moveis;CLI-175;Porto Alegre;site;4;1150,0;concluido;2026-01;4600,0
+1217;2026-03-30;Headset Gamer;Acessorios;CLI-338;Cuiaba;loja fisica;8;280,0;cancelado;2026-03;2240,0
+1218;2025-05-10;Hub USB-C;Acessorios;CLI-148;Cuiaba;aplicativo;1;150,0;concluido;2025-05;150,0
+1219;2026-03-20;Monitor 27 4K;Eletronicos;CLI-131;Boa Vista;aplicativo;7;1950,0;concluido;2026-03;13650,0
+1220;2026-04-01;Suporte Monitor Madeira;Moveis;CLI-212;Recife;aplicativo;3;140,0;cancelado;2026-04;420,0
+1221;2025-09-12;Estante para Livros;Moveis;CLI-336;Boa Vista;aplicativo;2;490,0;cancelado;2025-09;980,0
+1222;2026-01-08;Cadeira Ergonomica;Moveis;CLI-210;Sao Luis;marktplace;5;1150,0;cancelado;2026-01;5750,0
+1223;2025-06-14;Mouse Sem Fio;Acessorios;CLI-183;Belem;aplicativo;5;120,0;cancelado;2025-06;600,0
+1224;2025-08-17;Mochila Impermeavel;Utilidades;CLI-209;Florianopolis;loja fisica;6;190,0;concluido;2025-08;1140,0
+1225;2025-08-17;Hub USB-C;Acessorios;CLI-322;Salvador;loja fisica;5;150,0;concluido;2025-08;750,0
+1226;2025-11-24;Mouse Sem Fio;Acessorios;CLI-271;Manaus;loja fisica;6;120,0;concluido;2025-11;720,0
+1227;2025-09-20;Lampada Smart Wi-Fi;Casa Inteligente;CLI-136;Sao Luis;loja fisica;1;65,0;concluido;2025-09;65,0
+1228;2025-03-06;Teclado Mecanico;Acessorios;CLI-299;Manaus;aplicativo;6;340,0;concluido;2025-03;2040,0
+1229;2025-07-16;Garrafa Termica Inox;Utilidades;CLI-254;Curitiba;loja fisica;6;95,0;cancelado;2025-07;570,0
+1230;2025-07-10;Cadeira Ergonomica;Moveis;CLI-246;Curitiba;aplicativo;7;1150,0;cancelado;2025-07;8050,0
+1231;2025-06-10;Smartphone 5G 256GB;Eletronicos;CLI-345;Vitoria;site;3;2900,0;concluido;2025-06;8700,0
+1232;2025-09-13;Luminaria de Mesa LED;Utilidades;CLI-333;Aracaju;site;5;130,0;concluido;2025-09;650,0
+1233;2026-02-01;Fone Bluetooth ANC;Eletronicos;CLI-214;Porto Alegre;aplicativo;8;620,0;concluido;2026-02;4960,0
+1234;2025-04-13;Teclado Mecanico;Acessorios;CLI-318;Belo Horizonte;loja fisica;3;340,0;cancelado;2025-04;1020,0
+1235;2026-04-06;Cadeira Ergonomica;Moveis;CLI-307;Belem;aplicativo;6;1150,0;concluido;2026-04;6900,0
+1236;2025-12-30;Suporte para Notebook;Acessorios;CLI-238;Cuiaba;aplicativo;3;85,0;concluido;2025-12;255,0
+1237;2025-12-31;Tomada Inteligente;Casa Inteligente;CLI-230;Brasilia;site;4;90,0;concluido;2025-12;360,0
+1238;2026-02-10;Assistente Virtual Echo;Casa Inteligente;CLI-302;Joao Pessoa;site;6;450,0;concluido;2026-02;2700,0
+1239;2025-10-11;Aspirador Portatil;Utilidades;CLI-219;Boa Vista;marktplace;2;310,0;concluido;2025-10;620,0
+1240;2025-02-03;Tablet 11 Polegadas;Eletronicos;CLI-283;Rio Branco;loja fisica;7;2200,0;concluido;2025-02;15400,0
