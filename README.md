@@ -119,4 +119,6 @@ Sem uma chave configurada, o painel de indicadores continua disponível, mas os 
 
 Após aplicar o filtro pela categoria "Utilidades", observamos que os valores exibidos são modificados de acordo com o filtro. Também é possível selecionar mais de uma categoria ao mesmo tempo.
 <img width="1909" height="897" alt="DataPilot_02" src="https://github.com/user-attachments/assets/620cb27f-fbec-4a55-b5b4-3ce1bd60bdda" />
+<img width="1911" height="902" alt="DataPilot_03" src="https://github.com/user-attachments/assets/9a3b26d2-6815-4881-886c-0905a100331c" />
+
 
