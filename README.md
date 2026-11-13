@@ -1,3 +1,4 @@
+
 # Data Pilot
 
 Aplicação interativa para exploração e análise de dados de vendas. O projeto apresenta um painel construído com Streamlit e oferece duas formas de consultar os indicadores por linguagem natural, usando modelos disponibilizados pelo OpenRouter.
@@ -112,3 +113,10 @@ O arquivo `.env.example` documenta as variáveis esperadas:
 | `OPENROUTER_MODEL` | Identificador do modelo usado pelo OpenRouter. O padrão do exemplo é `openrouter/free`. |
 
 Sem uma chave configurada, o painel de indicadores continua disponível, mas os recursos de chat não conseguem consultar o modelo.
+
+## Telas da Aplicação
+<img width="1906" height="902" alt="DataPilot_01" src="https://github.com/user-attachments/assets/09c90003-9e8c-4cf5-be38-bd945ecd559c" />
+
+Após aplicar o filtro pela categoria "Utilidades", observamos que os valores exibidos são modificados de acordo com o filtro. Também é possível selecionar mais de uma categoria ao mesmo tempo.
+<img width="1909" height="897" alt="DataPilot_02" src="https://github.com/user-attachments/assets/620cb27f-fbec-4a55-b5b4-3ce1bd60bdda" />
+
