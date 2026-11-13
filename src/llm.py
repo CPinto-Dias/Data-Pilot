@@ -80,57 +80,59 @@ def run_agent(question: str, df: pd.DataFrame) -> str:
             return "Defina OPENROUTER_API_KEY para conversar com dados."
     
         messages: list[ChatMessagesTypedDict] = [
-        {
-            "role": "system",
-            "content": (
-                "Você é um agente de análise de vendas. Responda em português do Brasil, "
-                "sem inventar dados. Use as ferramentas quando precisar de dados; elas são "
-                "a única fonte permitida."
-            ),
-        },
+            {
+                "role": "system",
+                "content": (
+                    "Você é um agente de análise de vendas. Responda em português do Brasil, "
+                    "sem inventar dados. Use as ferramentas quando precisar de dados; elas são "
+                    "a única fonte permitida."
+                ),
+            },
 
-        {"role": "user", "content": question}
-    ]
+            {"role": "user", "content": question}
+        ]
         try:
             with OpenRouter(api_key=api_key) as client:
 
                 for _ in range(MAX_TOOLS_ROUNDS):
                     response = client.chat.send(
-                    model=os.getenv("OPENROUTER_MODEL", DEFAULT_MODEL),
-                    messages=messages,
-                    tools=TOOLS,
-                    tool_choice="auto",
-            )
-            message = response.choices[0].message
-            tool_calls = message.tool_calls or []
-            if not tool_calls:
-                return (
-                    message.content
-                    if isinstance(message.content, str)
-                    else "O modelo não retornou uma resposta válida."
-                )
-            messages.append(
-                cast(
-                    ChatMessagesTypedDict,
-                    cast(object, message.model_dump(exclude_none=True)),
-                )
-            )
-            for tool_call in tool_calls:
-                try:
-                    json.loads(tool_call.function.arguments)
-                except json.JSONDecodeError:
-                    result = {"error": "Argumentos inválidos para a ferramenta."}
-                else:
-                    result = execute_tool(tool_call.function.name, df)
-                messages.append(
-                    {
-                        "role": "tool",
-                        "tool_call_id": tool_call.id,
-                        "content": json.dumps(
-                            result, ensure_ascii=False, default=_json_default
-                        ),
-                    }
-                )
+                        model=os.getenv("OPENROUTER_MODEL", DEFAULT_MODEL),
+                        messages=messages,
+                        tools=TOOLS,
+                        tool_choice="auto",
+                    )   
+                    message = response.choices[0].message
+                    tool_calls = message.tool_calls or []
+                    if not tool_calls:
+                        return (
+                            message.content
+                            if isinstance(message.content, str)
+                            else "O modelo não retornou uma resposta válida."
+                        )
+                    
+                    messages.append(
+                        cast(
+                            ChatMessagesTypedDict,
+                            cast(object, message.model_dump(exclude_none=True)),
+                        )
+                    )
+                    for tool_call in tool_calls:
+                        try:
+                            json.loads(tool_call.function.arguments)
+                        except json.JSONDecodeError:
+                            result = {"error": "Argumentos inválidos para a ferramenta."}
+                        else:
+                            result = execute_tool(tool_call.function.name, df)
+                        messages.append(
+                            {
+                                "role": "tool",
+                                "tool_call_id": tool_call.id,
+                                "content": json.dumps(
+                                    result, ensure_ascii=False, default=_json_default
+                                ),
+                            }
+                        )
+            return "Não foi possível concluir a análise no número permitido de consultas."
         except Exception as exc:
             print(f"Erro inesperado: {exc}")
             return "Não foi possível concluir a análise no número permitido de consultas."
